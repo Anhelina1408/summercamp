@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  background: transparent;
+  position: absolute;
+  top: 25px;
+  z-index: 999;
+}
+.header__logo {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #333333;
+}
+.header__logo::after {
+  content: "/";
+  color: #E95F45;
+}
+.header__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header__nav {
+  max-width: 506px;
+  width: 100%;
+  margin-left: 100px;
+  margin-right: auto;
+}
+.header__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.header__list-item {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 26px;
+  color: #333333;
+}
+.header__button {
+  width: 150px;
+  height: 51px;
+  background: #333333;
+  color: white;
+  border-radius: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  -webkit-transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.header__button:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: #333333;
+  border: 2px solid #333333;
+}
+
+.summer-camp {
+  height: 1055px;
+  width: 100%;
+  background: #E5E5E5;
+  position: relative;
+  z-index: 0;
+}
+.summer-camp__bg {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  z-index: -1;
+}
+.summer-camp__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.summer-camp__image {
+  max-width: 800px;
+  width: 760px;
+}
+.summer-camp__tittle {
+  max-width: 817px;
+  font-family: "Poppins", sans-serif;
+  font-size: 150px;
+  font-weight: 300;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  text-transform: uppercase;
+}
+.summer-camp__email {
+  width: 572px;
+  height: 124px;
+  background: white;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+.summer-camp .email__address {
+  color: #C4C4C4;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  border: none;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  padding-left: 20px;
+}
+.summer-camp .email__button {
+  width: 255px;
+  height: 84px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(0.03%, #F48743), color-stop(100.14%, #F35E41));
+  background: linear-gradient(90deg, #F48743 0.03%, #F35E41 100.14%);
+  border-radius: 30px;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+.summer-camp .email__button:hover {
+  background: transparent;
+  border: 2px solid #333333;
+  color: #333333;
+  -webkit-transition: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.section {
+  width: 100%;
+  background: #E5E5E5;
+}
+.section__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.section__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 442px;
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+.section__number {
+  font-size: 156px;
+  color: #E95F45;
+}
+.section__text {
+  width: 300px;
+  margin-left: 20px;
+}
+
+.wrapper {
+  max-width: 1500px;
+  margin: 0 auto;
+}

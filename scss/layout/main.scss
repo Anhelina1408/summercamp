@@ -1,0 +1,98 @@
+.summer-camp{
+    height: 1055px;
+    width: 100%;
+    background: $main-bf;
+    position: relative;
+    z-index: 0;
+    &__bg{
+        position: absolute;
+        top: 20px;
+        left: 0;
+        z-index: -1;
+    }
+   &__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
+    &__image{
+        max-width: 800px;
+        width: 760px;
+    }
+    &__tittle{
+        max-width: 817px;
+        font-family: $font-poppins;
+        font-size: 150px;
+        font-weight: 300;
+        align-self: flex-end;
+        text-transform: uppercase; 
+    
+    }
+    &__email{
+        width: 572px;
+        height: 124px;
+        background: white;
+        border-radius: 30px;
+        display: flex;
+        align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+      
+
+    } 
+    .email__address{
+        color: #C4C4C4;
+        font-family: $font-poppins;
+        font-size: 24px;
+        border: none;
+        width: 100%;
+        height: 100%;
+        outline: none;
+        padding-left: 20px;
+    
+    }
+    .email__button{
+        width: 255px;
+        height: 84px;
+        background: $main-bg-gradient;
+        border-radius: 30px;
+        border: none;
+        color: white;
+        font-size: 24px;
+        cursor: pointer;
+    }
+    .email__button:hover{
+        background: transparent;
+        border: 2px solid $main-black;
+        color: $main-black;
+        transition: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    }
+
+}
+
+.section{
+    width: 100%;
+    background: $main-bf; 
+    &__list{
+        display: flex;
+        justify-content: space-between;
+    }  
+    &__item{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 442px; 
+        font-size: 22px; 
+        font-weight: 400;
+        font-family: $font-poppins;
+    }
+    &__number{
+        font-size: 156px;
+        color: $main-orange;
+    }
+    &__text{
+        width: 300px;
+        margin-left: 20px;
+    }
+}

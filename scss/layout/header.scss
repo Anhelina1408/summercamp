@@ -1,0 +1,63 @@
+.header{
+    width: 100%;
+    background: transparent;
+    position: absolute;
+    top: 25px;
+    z-index: 999;
+
+    &__logo{
+        font-family: $font-poppins;
+        font-weight: 500;
+        font-size: 36px;
+        text-transform: uppercase;
+        color: $main-black;
+        &::after{
+            content: "/";
+            color: $main-orange;
+        }
+
+    }
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__nav{
+        max-width: 506px;
+       width: 100%; 
+       margin-left: 100px;
+       margin-right: auto;
+    }
+    &__list{
+       display: flex; 
+       width: 100%;
+       justify-content: space-between;
+    }
+    &__list-item{
+        font-family: $font-poppins;
+        font-weight: 500;
+        font-size: 26px;
+        color: $main-black;
+    }
+    &__button{
+        width: 150px;
+        height: 51px;
+        background: $main-black;
+        color: white;
+        border-radius: 100px;
+        @include flexCenter;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: $font-poppins;
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+        
+        &:hover{
+            cursor: pointer;
+            background-color: transparent;
+            color: $main-black;
+            border: 2px solid $main-black;
+        }
+    }
+   
+
+}
